@@ -287,8 +287,8 @@ section .bubbles {
 }
 .theBullte ul li a {
   position: relative;
-  width: 17px;
-  height: 17px;
+  width: 12px;
+  height: 12px;
   border: 2px solid #6640f4;
   border-radius: 50%;
   margin-bottom: 7px;
@@ -302,8 +302,8 @@ section .bubbles {
 }
 .theBullte ul li a span {
   position: absolute;
-  top: -4px;
-  right: 28px;
+  top: -10px;
+  right: 20px;
   background: #6640f4;
   width: 110px;
   text-align: center;
