@@ -7,7 +7,7 @@ window.addEventListener("load", () => {
   setTimeout(() => {
     preload.classList.add("loaded");
     document.body.style.overflow = "auto";
-  }, 100);
+  }, 25);
 });
 
 // Scroller
@@ -19,18 +19,6 @@ let theHeight =
 window.addEventListener("scroll", () => {
   let theTop = document.documentElement.scrollTop;
   scroller.style.width = `${(theTop / theHeight) * 100}%`;
-});
-
-// Navbar
-
-let navbar = document.querySelector(".navbar");
-
-window.addEventListener("scroll", () => {
-  if (window.scrollY > 300) {
-    navbar.classList.add("nav-scroll");
-  } else {
-    navbar.classList.remove("nav-scroll");
-  }
 });
 
 // Show Video
