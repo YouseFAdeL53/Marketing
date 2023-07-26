@@ -2,8 +2,12 @@
 
 let preload = document.querySelector(".preload");
 
-window.addEventListener("load", () => {
+document.addEventListener("DOMContentLoaded", () => {
+  document.body.style.overflow = "hidden";
+  setTimeout(() => {
     preload.classList.add("loaded");
+    document.body.style.overflow = "auto";
+  }, 10);
 });
 
 // Scroller
