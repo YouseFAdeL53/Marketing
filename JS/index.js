@@ -2,7 +2,7 @@
 
 let preload = document.querySelector(".preload");
 
-document.addEventListener("DOMContentLoaded", () => {
+window.addEventListener("load", () => {
   document.body.style.overflow = "hidden";
   setTimeout(() => {
     preload.classList.add("loaded");
